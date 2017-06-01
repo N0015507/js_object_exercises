@@ -31,10 +31,42 @@
     'use strict';
 
     ///////////////////////////
-    // Put your code here!
+
+
+function LivingThing(monsterName, monsterHealth){
+    this.name = monsterName;
+    this.health = monsterHealth;
+    // this.methodName = function(){
+    //     // do something here
+    // }
+    // this.methodName2 = function(){
+    //     // do something here - even reference methodName
+    // }
+}
+let Rat = new LivingThing("Rat", 5);
+let Goblin = new LivingThing("Goblin", 30);
+let Ogre = new LivingThing("Ogre", 80);
+let monsters = [Rat, Goblin, Ogre];
+
+// for (let variableName of arrayName){
+//     //do something here;
+// }
+//
+// for(i-0; i <= arrayName.length -1; i++){
+//         //do something here;
+// }
+//
+// //to extend an object -
+//
+// function NewName(parm1, parm2, parm3){
+//     OrigName.call(this, parm1, parm2, parm3)
+//     this.newparmbolean = function(){
+//         return true;
+//     }
+// }
     ///////////////////////////
 
-    
+
     //The code below should work when you are done
     console.log("Monsters!");
 
@@ -58,7 +90,3 @@
     }
 
 })();
-    
-
-
-    
